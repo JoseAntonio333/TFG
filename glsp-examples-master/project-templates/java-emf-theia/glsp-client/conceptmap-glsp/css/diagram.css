@@ -1,0 +1,116 @@
+/********************************************************************************
+ * Copyright (c) 2022 EclipseSource and others.
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0.
+ *
+ * This Source Code may also be made available under the following Secondary
+ * Licenses when the conditions for such availability set forth in the Eclipse
+ * Public License v. 2.0 are satisfied: 
+ * -- GNU General Public License, version 2 with the GNU Classpath Exception
+ * which is available at https://www.gnu.org/software/classpath/license.html
+ * -- MIT License which is available at https://opensource.org/license/mit.
+ *
+ * SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0 OR MIT
+ ********************************************************************************/
+
+:root {
+    --sprotty-background: var(--theia-layout-color3);
+    --sprotty-edge: var(--theia-editor-foreground);
+    --sprotty-border: var(--theia-editor-foreground);
+}
+
+svg {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bbb;
+}
+
+.header{
+    font-weight: bold; 
+}
+
+.sprotty-node {
+    fill: inherit;
+}
+
+.course-node {
+    fill: #f1bd6c;
+}
+
+.caption-node{
+    fill: white;
+}
+
+.properties-node{
+    fill: grey;
+    stroke: black; /* Color del borde */
+    stroke-width: 2px; /* Ancho del borde */
+}
+
+.feature-node{
+    fill: #f1bd6c;
+}
+
+.imported-concept-node{
+    fill: #f10d0c;
+}
+
+.topic-node{
+    fill: gray;
+}
+
+.mouseover{
+    box-shadow: white;
+}
+
+.selected{
+    fill: white;
+}
+
+.line-uses{
+    stroke: black;
+}
+
+.line-specializes{
+    stroke:gray
+}
+
+.concept-node{
+    fill: #fffcdf;
+    stroke: var(--sprotty-border);
+    stroke-width: 1;
+    font-weight: bold;
+    filter: url(#dropShadow);
+    font-style: italic;
+}
+
+.uses-edge {
+    stroke: black;
+}
+
+.uses-arrow {
+    fill: black;
+    stroke: black;
+}
+
+.uses-topic-edge {
+    stroke: black;
+    stroke-dasharray: 5, 5; 
+}
+
+.arrow-uses-topic {
+    fill: black;
+    stroke: black;
+}
+
+
+.specializes-edge {
+    stroke: gray;
+}
+
+.specializes-arrow {
+    fill: gray;
+    stroke: gray;
+}

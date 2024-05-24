@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course_model:ConceptMap xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:course_model="http://www.uma.es/course_model" id="root" name="Concept Map">
+  <course id="79b87313-15fb-4e28-8ea2-53a7b03656c9" name="NewCourse0">
+    <properties id="9ef411fb-ed52-4193-b36e-5a57a2eceb25" name="NewProperties2" bibliography="s" previous_requirements="Introduce the previous requirements here..." skills="Introduce the skills here..." assessment_criteria="Introduce the assesment criteria here..." subject="Introduce the subject here..." area="Introduce the area here..." offer="Introduce the offer here..." semester="Introduce the semester here..." credits="Introduce the credits here..." large_group_hours="Introduce the Large group Hours here..." small_group_hours="Introduce the Small group Hours here..." coordinator="Introduce the coordinator here..."/>
+    <topic id="fb01833f-6c59-4bca-94bd-a1a460ebeb97" name="NewTopic3">
+      <concept id="3bba257f-6992-440e-ab58-8e9530e655ee" name="NewConcept5">
+        <feature id="b3a1d2ca-4bd6-4d5e-84f1-ec0da9185b25" feature_name="aa"/>
+        <feature id="79e113a6-da5c-4e7d-b475-d0bdf5886643" feature_name="NewFeature6"/>
+        <feature id="93deb50a-31ee-446b-82c5-1009585aeae7" feature_name="NewFeature6"/>
+        <feature id="2823d5b2-b3cf-4ea6-87d0-2c96e49fdd42" feature_name="kk"/>
+        <feature id="33cd607a-83c8-4561-884e-f42cee0d8522" feature_name="NewFeature6"/>
+        <feature id="0646c19b-c609-45cd-8062-3904bf3d1579" feature_name="NewFeature6"/>
+        <feature id="2d5619cc-9eaf-446f-8830-4af4959c99d3" feature_name="NewFeature6"/>
+        <feature id="51611de5-8e19-469e-b9f7-849e76934834" feature_name="NewFeature6"/>
+        <feature id="ee654614-1401-4d45-8388-2722cbff9574" feature_name="NewFeature6"/>
+        <feature id="cce5d8eb-b41b-4c8f-bfa5-2269d0804c8d" feature_name="NewFeature6"/>
+      </concept>
+      <imported_concept id="2ecea4af-a91b-49e7-b3ec-380728271418" name="NewImported_Concept5"/>
+    </topic>
+    <legend id="25e19b1b-34b1-4718-a582-74ee007182bf" name="NewLegend1"/>
+  </course>
+</course_model:ConceptMap>
