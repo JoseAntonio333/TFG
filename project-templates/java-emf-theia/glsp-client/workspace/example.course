@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course_model:Course xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:course_model="http://www.uma.es/course_model" id="root" name="Course" course_name="Set the name of the course here..." author="Set your name here...">
+  <properties id="fa708ca5-9924-4717-8adb-922f21328474" name="NewProperties10" bibliography="Introduce your bibliography here..." previous_requirements="Introduce the previous requirements here..." skills="Introduce the skills here..." assessment_criteria="Introduce the assesment criteria here..." subject="Introduce the subject here..." area="Introduce the area here..." offer="Introduce the offer here..." semester="Introduce the semester here..." credits="Introduce the credits here..." large_group_hours="Introduce the Large group Hours here..." small_group_hours="Introduce the Small group Hours here..." coordinator="Introduce the coordinator here..."/>
+  <topic id="14899963-8c95-4eac-b709-4f200c98e507" topic_name="NewTopic0" annotations="Set your annotations here...">
+    <after id="b8b6e32b-74ab-43a5-afd4-50857b6224e5" origin="14899963-8c95-4eac-b709-4f200c98e507" destination="e1735cc5-78fe-43bf-b268-ff0c3a673d04"/>
+    <concept id="577b843e-3afe-461f-9c65-0aacc888623a" concept_name="NewConcept1" annotations="Your annotations here...">
+      <uses id="4bc97150-1f56-4d85-94c4-17fb71e63b34" origin="577b843e-3afe-461f-9c65-0aacc888623a" importedDestination="bef7f982-06a0-4c54-9a61-0622b60a699b"/>
+      <specializes id="bbf5916a-b0bf-4bff-9113-cf7039a88000" origin="577b843e-3afe-461f-9c65-0aacc888623a" destination="2bc9ee4c-2433-4568-9cb6-a72e38f4c976"/>
+    </concept>
+    <concept id="2bc9ee4c-2433-4568-9cb6-a72e38f4c976" concept_name="NewConcept6" annotations="Your annotations here..."/>
+    <imported_concept id="bef7f982-06a0-4c54-9a61-0622b60a699b" concept_name="Empty" ubication="Set de ubication here" relatedTopic="TCP"/>
+  </topic>
+  <topic id="e1735cc5-78fe-43bf-b268-ff0c3a673d04" topic_name="NewTopic7" annotations="Set your annotations here...">
+    <concept id="116c38a3-6c59-408b-9ba7-0334c6f3970d" concept_name="NewConcept8" annotations="Your annotations here...">
+      <specializes id="eddafe6e-6528-4591-bdda-a0d5e98d4a32" origin="116c38a3-6c59-408b-9ba7-0334c6f3970d" importedDestination="b65a0dba-838a-4e4a-940a-a04c5b06914a"/>
+    </concept>
+    <imported_concept id="b65a0dba-838a-4e4a-940a-a04c5b06914a" concept_name="Empty" ubication="Set de ubication here" relatedTopic="Set the name of the related topic here..."/>
+  </topic>
+  <legend id="c61cdd18-9dd8-42a3-8651-8283dc205568" name="NewLegend8"/>
+</course_model:Course>
